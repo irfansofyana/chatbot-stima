@@ -286,7 +286,7 @@ jelasnya
 jika
 jikalau
 juga
-jumlah
+.jumlah
 jumlahnya
 justru
 kala
@@ -669,7 +669,7 @@ supaya
 tadi
 tadinya
 tahu
-tahun
+.tahun
 tak
 tambah
 tambahnya
