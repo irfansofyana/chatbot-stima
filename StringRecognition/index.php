@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en" class="h-100">
   <head>
+    <title>Chatbot io</title>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -10,7 +12,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="mainView.css" rel="stylesheet">
-
+  <link type="text/css" rel="stylesheet" href="style.css" />
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -41,7 +43,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="profile.php">About Us<span class="sr-only">(current)</span></a>
         </li>
         <!--
         <li class="nav-item">
@@ -71,6 +73,28 @@
         <!--<p>Back to <a href="/docs/4.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>-->
   </div>
 </main>
+
+<div id="wrapper">
+    <div id="menu">
+        <p class="welcome">Welcome, <b></b></p>
+        <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+        <div style="clear:both"></div>
+    </div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+ 
+});
+</script>
 
 <footer class="footer mt-auto py-3">
   <div class="container">
