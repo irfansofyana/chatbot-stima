@@ -1,6 +1,5 @@
 #Modifikasi algoritma KMP
 
-
 def findLPSArray(pattern, lps):
     #pangjang prefix suffix terbesar sebelumnya
     length = 0 
