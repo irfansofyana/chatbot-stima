@@ -56,6 +56,7 @@ def kmpFindPercentage(text, pattern):
     
     return (maks / n) * 100
 
-text = input()
-pattern = input()
-print(kmpFindPercentage(text, pattern))
+# if __name__ == "__main__":
+#     text = input()
+#     pattern = input()
+#     print(kmpFindPercentage(text, pattern))
