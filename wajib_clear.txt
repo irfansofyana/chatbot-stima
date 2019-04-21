@@ -27,7 +27,7 @@ Pemilu diadakan kali setahun
 Siapa pembuat
 Johanes (13517012), Alifio (13517076), dan Irfan (13517078)
 Apa stack dipakai
-<tuliskan stack yang dipakai>
+python, php, js, html, dan css
 Apa nama ibukota Indonesia
 DKI Jakarta
 Apa nama ibukota negara Indonesia
