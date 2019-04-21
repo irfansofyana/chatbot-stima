@@ -1,7 +1,6 @@
 # from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 # stop = StopWordRemoverFactory().get_stop_words()
 
-import sys
 # stopword
 data = open("stopword.txt",'r')
 stop = []
@@ -11,7 +10,7 @@ data.close()
 
 
 # pertanyaan wajib
-data = open(sys.argv[1],'r')
+data = open("wajib.txt",'r')
 db = []
 pos = 0
 # read database
@@ -25,7 +24,7 @@ for line in data:
     pos+=1
 data.close()
 
-data = open(sys.argv[2],"w")
+data = open("wajib_clear.txt","w")
 for quest,ans in db:
     # asking a question
     quest = quest[:-1]

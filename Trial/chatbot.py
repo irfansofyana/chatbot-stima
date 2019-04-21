@@ -21,21 +21,6 @@ if __name__ == "__main__":
             db.append((quest,ans))
         pos+=1
     data.close()
-    # pertanyaan skenario
-    data = open("skenario_clear.txt",'r')
-    db = []
-    pos = 0
-    # read database
-    for line in data:
-        line = line.rstrip("\n")
-        if(pos%2==0):
-            quest = line
-        else:
-            ans = line
-            db.append((quest,ans))
-        pos+=1
-    data.close()
-
     # stopword
     data = open("stopword.txt",'r')
     stop = []
@@ -89,18 +74,18 @@ if __name__ == "__main__":
                 # ada minimal 1 yang pass
                 cont.sort(key=lambda tuple: tuple[0],reverse = True)
                 # print(cont)
-                if(cont[0][0]==100):
-                    # if(cont[0][0]!=cont[1][0]):
-                    print(cont[0][1][1])
-                    exit(0)
+                if(len(cont)>1):
+                    if(cont[0][0]!=cont[1][0]):
+                        print(cont[0][1][1])
+                        exit(0)
                         # continue
-                    # else:
+                    else:
+                        top3 = cont[:3]
+                        print("Apakah yang anda maksud:")
+                        for el in top3:
+                            print(el[1][0]+'?')
                 else:
-                    top3 = cont[:3]
-                    print("Apakah yang anda maksud:")
-                    for el in top3:
-                        print(el[1][0]+'?')
-                    # print(cont[0][1][1])
+                    print(cont[0][1][1])
                     exit(0)
                     # continue
             # if(len(rest)>0):
