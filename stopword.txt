@@ -19,10 +19,10 @@ andalah
 antar
 antara
 antaranya
-apa
+.apa
 apaan
 apabila
-apakah
+.apakah
 apalagi
 apatah
 artinya
@@ -36,8 +36,8 @@ awal
 awalnya
 bagai
 bagaikan
-bagaimana
-bagaimanakah
+.bagaimana
+.bagaimanakah
 bagaimanapun
 bagi
 bagian
@@ -299,8 +299,8 @@ kamilah
 kamu
 kamulah
 kan
-kapan
-kapankah
+.kapan
+.kapankah
 kapanpun
 karena
 karenanya
@@ -325,7 +325,7 @@ kembali
 kemudian
 kemungkinan
 kemungkinannya
-kenapa
+.kenapa
 kepada
 kepadanya
 kesampaian
@@ -654,8 +654,8 @@ setinggi
 seusai
 sewaktu
 siap
-siapa
-siapakah
+.siapa
+.siapakah
 siapapun
 sini
 sinilah
