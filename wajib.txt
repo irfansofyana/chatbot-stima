@@ -30,7 +30,11 @@ Apa saja stack yang dipakai untuk membuat anda?
 <tuliskan stack yang dipakai>
 Apa nama ibukota Indonesia?
 DKI Jakarta
+Apa nama ibukota negara Indonesia?
+DKI Jakarta
 Nama ibukota Indonesia sebelum disebut Jakarta adalah?
+Jayakarta
+Nama ibukota negara Indonesia sebelum disebut Jakarta adalah?
 Jayakarta
 Siapa pembuat algoritma KMP?
 Knuth-Morris-Prat
