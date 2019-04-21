@@ -8,3 +8,4 @@ __pycache__/Regex.cpython-37.pyc
 __pycache__/BM.cpython-37.pyc
 __pycache__/KMP.cpython-37.pyc
 __pycache__/Regex.cpython-37.pyc
+*.pyc
