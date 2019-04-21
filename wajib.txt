@@ -1,19 +1,31 @@
 Siapa nama koordinator dosen mata kuliah strategi algoritma 2018/2019?
 Rinaldi Munir
+Siapa nama koordinator dosen matkul strategi algoritma 2018/2019?
+Rinaldi Munir
 Siapa nama koordas strategi algoritma?
 Kevin Andrian Liwinata
+Siapa nama koordas stima?
+Kevin Andrian Liwinata
+Siapa nama koordinator dasar strategi algoritma?
+Kevin Andrian Liwinata
+Siapa nama koordinator dasar stima?
+Kevin Andrian Liwinata
 Berapa jumlah SKS minimal untuk lulus S1 di ITB?
+144 SKS
+Berapa jumlah SKS minimum untuk lulus S1 di ITB?
 144 SKS
 Apa kepanjangan SKSD?
 Sistem Komunikasi Satelit Domestik
 Tanggal berapa diadakan pemilu tahun ini?
+17 April 2019
+Tanggal berapa diadakan pemilihan umum tahun ini?
 17 April 2019
 Sudah berapa kali diadakan pemilu presiden?
 4 Kali
 Pemilu diadakan berapa kali setahun?
 5 tahun sekali
 Siapa saja pembuat anda?
-<tuliskan nama anggota kelompok>
+Johanes (13517012), Alifio (13517076), dan Irfan (13517078)
 Apa saja stack yang dipakai untuk membuat anda?
 <tuliskan stack yang dipakai>
 Apa nama ibukota Indonesia?

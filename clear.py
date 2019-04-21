@@ -1,4 +1,4 @@
-from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+# from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 # stop = StopWordRemoverFactory().get_stop_words()
 
 # stopword
@@ -20,7 +20,7 @@ for line in data:
         quest = line
     else:
         ans = line
-        db.append((quest.lower(),ans))
+        db.append((quest,ans))
     pos+=1
 data.close()
 
@@ -30,7 +30,7 @@ for quest,ans in db:
     quest = quest[:-1]
     # clear stopword
     split = quest.split(' ')
-    result = [kata for kata in split if kata not in stop]
+    result = [kata for kata in split if kata.lower() not in stop]
     quest = ' '.join(result)
     data.write(quest+'\n')
     data.write(ans+'\n')

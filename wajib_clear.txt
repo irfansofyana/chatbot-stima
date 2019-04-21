@@ -1,40 +1,52 @@
-nama koordinator dosen mata kuliah strategi algoritma 2018/2019
+Siapa nama koordinator dosen mata kuliah strategi algoritma 2018/2019
 Rinaldi Munir
-nama koordas strategi algoritma
+Siapa nama koordinator dosen matkul strategi algoritma 2018/2019
+Rinaldi Munir
+Siapa nama koordas strategi algoritma
 Kevin Andrian Liwinata
-jumlah sks minimal lulus s1 itb
+Siapa nama koordas stima
+Kevin Andrian Liwinata
+Siapa nama koordinator dasar strategi algoritma
+Kevin Andrian Liwinata
+Siapa nama koordinator dasar stima
+Kevin Andrian Liwinata
+jumlah SKS minimal lulus S1 ITB
 144 SKS
-kepanjangan sksd
+jumlah SKS minimum lulus S1 ITB
+144 SKS
+Apa kepanjangan SKSD
 Sistem Komunikasi Satelit Domestik
-tanggal diadakan pemilu tahun
+Tanggal diadakan pemilu tahun
+17 April 2019
+Tanggal diadakan pemilihan tahun
 17 April 2019
 kali diadakan pemilu presiden
 4 Kali
-pemilu diadakan kali setahun
+Pemilu diadakan kali setahun
 5 tahun sekali
-pembuat
-<tuliskan nama anggota kelompok>
-stack dipakai
+Siapa pembuat
+Johanes (13517012), Alifio (13517076), dan Irfan (13517078)
+Apa stack dipakai
 <tuliskan stack yang dipakai>
-nama ibukota indonesia
+Apa nama ibukota Indonesia
 DKI Jakarta
-nama ibukota indonesia jakarta
+Nama ibukota Indonesia Jakarta
 Jayakarta
-pembuat algoritma kmp
+Siapa pembuat algoritma KMP
 Knuth-Morris-Prat
-pemain catur nomor dunia
+Siapa pemain catur nomor dunia
 Magnus Carlsen
-nama blackhole galaksi bimasakti
+Apa nama blackhole galaksi bimasakti
 Blackhole M87
-nama pemain karakter wanita direbutkan pria lagu "adu rayu"
+Siapa nama pemain karakter wanita direbutkan pria lagu "adu rayu"
 velove vexia
-jumlah presiden indonesia
+jumlah presiden Indonesia
 Tujuh orang
-tahun indonesia merdeka
+Tahun Indonesia merdeka
 1945
-tahun indonesia dijajah jepang
+tahun Indonesia dijajah Jepang
 3 setengah tahun
-dimana soekarno memproklamasikan kemerdekaan indonesia
+Dimana Soekarno memproklamasikan kemerdekaan Indonesia
 Jl. Pegangsaan Timur No.56
-dimana kantin terdekat labtek 5
+Dimana kantin terdekat Labtek 5
 Kantin Borju
