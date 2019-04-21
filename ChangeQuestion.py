@@ -31,6 +31,8 @@ def change(text):
     res = ""
     first = True
     for i in text.split():
+        if ('?' in i):
+            i = i[:len(i)-1]
         if (first):
             first = False
         else:
@@ -39,7 +41,7 @@ def change(text):
             res += hashing[i]
         else:
             res += i
-    return res
+    return res+'?'
 
 generate()
 x = input()
