@@ -1,27 +1,15 @@
 import re
 
-def transform(s):
-    ret = ".*"
-    i = 0
-    while (i < len(s)):
-        if (s[i] == ' '):
-            ret = ret + ".*"
-            i+=1
-            while (i < len(s) and s[i] == ' '):
-                i+=1
-        else:
-            ret = ret+s[i]
-            i += 1
-    ret = ret + ".*"
-    return ret
-
 def isMatch(pattern, text):
-    pattern = transform(pattern)
+    # pattern = transform(pattern)
+    pattern = pattern.split(' ')
+    pattern = '.*'+'.*'.join(pattern) + '.*'
+    # print(pattern)
     x = re.search(pattern, text)
-    if (x == None):
-        return False
-    else:
+    if (x):
         return True
+    else:
+        return False
 
 # a = input()
 # b = input()
