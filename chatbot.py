@@ -74,18 +74,18 @@ if __name__ == "__main__":
                 # ada minimal 1 yang pass
                 cont.sort(key=lambda tuple: tuple[0],reverse = True)
                 # print(cont)
-                if(len(cont)>1):
-                    if(cont[0][0]!=cont[1][0]):
-                        print(cont[0][1][1])
-                        exit(0)
-                        # continue
-                    else:
-                        top3 = cont[:3]
-                        print("Apakah yang anda maksud:")
-                        for el in top3:
-                            print(el[1][0]+'?')
-                else:
+                if(len(cont)==1):
+                    # if(cont[0][0]!=cont[1][0]):
                     print(cont[0][1][1])
+                    exit(0)
+                        # continue
+                    # else:
+                else:
+                    top3 = cont[:3]
+                    print("Apakah yang anda maksud:")
+                    for el in top3:
+                        print(el[1][0]+'?')
+                    # print(cont[0][1][1])
                     exit(0)
                     # continue
             # if(len(rest)>0):

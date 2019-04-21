@@ -30,7 +30,11 @@ Apa stack dipakai
 <tuliskan stack yang dipakai>
 Apa nama ibukota Indonesia
 DKI Jakarta
+Apa nama ibukota negara Indonesia
+DKI Jakarta
 Nama ibukota Indonesia Jakarta
+Jayakarta
+Nama ibukota negara Indonesia Jakarta
 Jayakarta
 Siapa pembuat algoritma KMP
 Knuth-Morris-Prat
