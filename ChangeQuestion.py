@@ -17,7 +17,7 @@ def generate():
                         key = get
                     # print(get, key)
                     hashing[get] = key
-                    get = "" 
+                    get = ""
                 k = j+1
                 while (k < len(string) and string[k] == ' '):
                     k += 1
@@ -42,9 +42,3 @@ def change(text):
         else:
             res += i
     return res+'?'
-
-generate()
-x = input()
-print(change(x))
-                
-
