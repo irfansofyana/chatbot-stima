@@ -185,6 +185,27 @@ a:hover {
 .msgln {
     margin: 0 0 2px 0;
 }
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 
@@ -192,12 +213,23 @@ a:hover {
 
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
-  <div class="container">
-    <h1 class="mt-5">Say Hello to io!</h1>
-    <!--<p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>-->
-    <p class="lead">This chatbot was made by truly innovative techniques of copying bootstrap and decent(ish) development capabilites. Enjoy!</p>
-        <!--<p>Back to <a href="/docs/4.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>-->
+
+<div class="row">
+  <div class="column left">
+        <img src="kisspng-avatar-internet-bot-chatbot-help-desk-clip-art-chatbot-avatar-5b3f3b57546fa1.5619835015308706153459.png" width="100%" height="100%">
   </div>
+  <div class="column right">
+    <div class="container" >
+        <br>
+        <br>
+        <h1 class="mt-5">Say Hello to io!</h1>
+        <!--<p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>-->
+        <p class="lead">This chatbot was made by the power of bootstrap and our remarkable development capabilites. Enjoy!</p>
+            <!--<p>Back to <a href="/docs/4.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>-->
+    </div>
+  </div>
+</div>
+  
 
 
     <?php
