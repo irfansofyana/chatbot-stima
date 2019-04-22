@@ -62,7 +62,7 @@ if __name__ == "__main__":
             confi = 0
             cont = []
             for quest, ans in db:
-                confi = kmpFindPercentage(quest.lower(),pattern)
+                confi = bmFindPercentage(quest.lower(),pattern)
                 if(confi>=CONFIDENCE_MIN_LEVEL):
                     cont.append((confi,(quest,ans)))
                 else:
