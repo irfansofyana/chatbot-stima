@@ -23,7 +23,6 @@ if (isset ( $_POST ['enter'] )) {
         echo '<span class="error">Please type in a name</span>';
     }
 }
- 
 if (isset ( $_GET ['logout'] )) {
    
     // Simple exit message
@@ -46,7 +45,7 @@ body {
     text-align: center;
     padding: 35px;
 }
- 
+
 form,p,span {
     margin: 0;
     padding: 0;
@@ -150,9 +149,9 @@ a:hover {
         }
         ?></div>
  
-        <form name="message" action="">
-            <input name="usermsg" type="text" id="usermsg" size="63" /> <input
-                name="submitmsg" type="submit" id="submitmsg" value="Send" />
+        <form name="message" action="index.php" method="post">
+            <input name="usermsg" type="text" id="usermsg" size="63" /> 
+            <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
         </form>
     </div>
     <script type="text/javascript"
@@ -173,22 +172,32 @@ $(document).ready(function(){
  
 //If user submits the form
 $("#submitmsg").click(function(){
-        var clientmsg = $("#usermsg").val();
-      
-        <?php
-        $resbotmsg = exec("python chatbot.py clientmsg ");
-        $fp = fopen("log.html", 'a');
-        fwrite($fp, "<div class='msgln'>(".date("g:i A").") <b>".'io'."</b>: ".stripslashes(htmlspecialchars($resbotmsg))."<br></div>");
-        fclose($fp);
-        ?>
-        
-        $.post("post.php", {text: clientmsg});             
-        $("#usermsg").attr("value", "");
-        loadLog;
+    alert("submit");
+    var clientmsg = $("#usermsg").val();
+    $.post("post.php", {text: clientmsg});          
+    $("#usermsg").attr("value", "");
+    
+    // alert("php start");
+    // <?php
+    // if(isset($_POST['usermsg'])){
+    //     $resbotmsg = exec("python chatbot.py "+$_POST['usermsg']);
+    //     $fp = fopen("log.html", 'a');
+    //     fwrite($fp, "<div class='msgln'>(".date("g:i A").") <b>".'io'."</b>: ".stripslashes(htmlspecialchars($resbotmsg))."<br></div>");
+    //     fclose($fp);
+    // }
+    // ?>
+    $.post("exec.php", {text: clientmsg}); 
+    // alert($resbotmsg);
+
+    // alert("php end");
+
+    loadLog;
+    header("Refresh:0");
     return false;
 });
  
-function loadLog(){    
+function loadLog(){  
+    // alert("loadLog");  
     var oldscrollHeight = $("#chatbox").attr("scrollHeight") - 20; //Scroll height before the request
     $.ajax({
         url: "log.html",
@@ -205,7 +214,7 @@ function loadLog(){
     });
 }
  
-setInterval (loadLog, 2500);
+setInterval (loadLog, 500);
 </script>
 <?php
     }
