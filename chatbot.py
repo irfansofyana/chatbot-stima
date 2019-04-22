@@ -47,7 +47,7 @@ if __name__ == "__main__":
     pattern = ""
     pattern = ' '.join(sys.argv[1:]).lower()
     pattern = change(pattern)
-    if(not pattern.endswith("?") and pattern != quitKey):
+    if(not pattern.endswith("?")):
         print("Input bukan pertanyaan")
     else:
         # asking a question
@@ -71,7 +71,7 @@ if __name__ == "__main__":
             if(len(cont)>0):
                 # ada minimal 1 yang pass
                 cont.sort(key=lambda tuple: tuple[0],reverse = True)
-                if(cont[0][0]>=CONFIDENCE_MIN_LEVEL):
+                if(len(cont)==1 or cont[0][0]==100):
                     print(cont[0][1][1])
                 else:
                     top3 = cont[:3]
