@@ -27,7 +27,7 @@ Pemilu diadakan berapa kali setahun?
 Siapa saja pembuat anda?
 Johanes (13517012), Alifio (13517076), dan Irfan (13517078)
 Apa saja stack yang dipakai untuk membuat anda?
-<tuliskan stack yang dipakai>
+python, php, js, html, dan css
 Apa nama ibukota Indonesia?
 DKI Jakarta
 Apa nama ibukota negara Indonesia?
